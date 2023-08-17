@@ -13,8 +13,8 @@
 <body>
     <main>
         <section class="left-section">
-            <!-- <div class="hero-image"></div> -->
-            <img src="img/header.jpg" alt="">
+
+            <img src="img/headers.jpg" alt="">
         </section>
         <section class="right-section">
             <div class="logo"><img src="img/logo-1.png" alt=""></div>
@@ -59,7 +59,7 @@
                         <div>
                             <label for="re-password">Confirm Password</label>
                             <input type="password" name="password" id="re-password" placeholder="Confirm Password"
-                                required>
+                                pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$" required>
                             <span>Confirm Password</span>
                             <div class="password_feedback" id="password_feedback"></div>
                         </div>
