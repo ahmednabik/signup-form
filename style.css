@@ -1,0 +1,182 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  font-family: monospace;
+}
+
+:root {
+  --green: rgb(33, 250, 131);
+  --red: rgb(252, 86, 108);
+  --dusky-green: rgb(6, 170, 94);
+  --opac-white: rgba(255, 255, 255, 0.8);
+  --form-txt: rgba(255, 255, 255, 0.5);
+  --darky: #1d2b3a;
+  --light-grey: rgb(105, 105, 105);
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  background-color: #f3ebe9;
+  width: 100%;
+  height: 100vh;
+}
+
+.left-section {
+  background-color: #f3ebe9;
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.left-section img {
+  width: 70%;
+}
+.right-section {
+  width: 50%;
+  height: 100vh;
+  background-color: #f3ebe9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-header {
+  padding: 5px 20px;
+  margin-bottom: 40px;
+}
+
+.form-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-inputs div {
+  position: relative;
+}
+
+.flex-field label {
+  display: none;
+  position: absolute;
+  left: 30px;
+}
+
+input::placeholder {
+  content: none;
+  color: white;
+}
+
+.logo {
+  margin-bottom: 50px;
+}
+
+span:not(.logged-in) {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  font-size: 0.4em;
+  padding: 0 6px;
+  color: white;
+  border-radius: 2px;
+  pointer-events: none;
+  letter-spacing: 0.05em;
+  transition: all 0.4s;
+}
+input {
+  color: var(--cyny-green);
+  border: 1px solid;
+  border-color: var(--cyny-green);
+  border-radius: 2px;
+  padding: 2px;
+}
+
+input:focus {
+  outline: none;
+}
+
+input:valid {
+  border: 1px solid var(--dusky-green);
+  outline: none;
+}
+
+/* Should stay grey till its valid */
+
+input:focus ~ span:not(.logged-in),
+input:invalid ~ span:not(.logged-in) {
+  transform: translateX(4px) translateY(-7px);
+  background-color: var(--light-grey);
+  color: white;
+}
+
+/* Should turn green */
+input:valid ~ span:not(.logged-in) {
+  transform: translateX(4px) translateY(-7px);
+  background-color: var(--dusky-green);
+  color: white;
+}
+
+.flex-field {
+  display: flex;
+  gap: 15px;
+}
+
+input[type="submit"] {
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: white;
+  border: 1px solid var(--dusky-green);
+  background-color: var(--dusky-green);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+input[type="submit"]:hover {
+  scale: 1.02;
+  transform: translateY(-2px);
+}
+
+input[type="submit"]:focus {
+  scale: 1;
+  transform: translateY(0px);
+}
+
+.logged-in {
+  display: flex;
+
+  align-items: center;
+}
+
+.logged-in input[type="checkbox"] {
+  display: none;
+}
+.logged-in input[type="checkbox"] + label:before {
+  content: "\2713";
+  width: 10px;
+  height: 10px;
+  border: 1px solid grey;
+  margin-right: 3px;
+  border-radius: 20%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: transparent;
+  cursor: pointer;
+}
+
+.logged-in input[type="checkbox"]:checked + label:before {
+  content: "\2713";
+  color: unset;
+}
+
+.password_feedback {
+  font-size: 6px;
+  color: black;
+}
+
+.error {
+  color: red;
+}

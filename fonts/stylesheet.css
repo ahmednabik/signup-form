@@ -1,0 +1,270 @@
+@font-face {
+    font-family: 'Sharp Grotesk Black 20';
+    src: url('SharpGrotesk-Black20.woff2') format('woff2'),
+        url('SharpGrotesk-Black20.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharp Grotesk Bold 05';
+    src: url('SharpGrotesk-Bold05.woff2') format('woff2'),
+        url('SharpGrotesk-Bold05.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharp Grotesk Black 05';
+    src: url('SharpGrotesk-Black05.woff2') format('woff2'),
+        url('SharpGrotesk-Black05.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharp Grotesk Book 20';
+    src: url('SharpGrotesk-Book20.woff2') format('woff2'),
+        url('SharpGrotesk-Book20.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharp Grotesk Black 25';
+    src: url('SharpGrotesk-Black25.woff2') format('woff2'),
+        url('SharpGrotesk-Black25.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharp Grotesk Black 15';
+    src: url('SharpGrotesk-Black15.woff2') format('woff2'),
+        url('SharpGrotesk-Black15.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharp Grotesk Bold 10';
+    src: url('SharpGrotesk-Bold10.woff2') format('woff2'),
+        url('SharpGrotesk-Bold10.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharp Grotesk Book 05';
+    src: url('SharpGrotesk-Book05.woff2') format('woff2'),
+        url('SharpGrotesk-Book05.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharp Grotesk Bold 20';
+    src: url('SharpGrotesk-Bold20.woff2') format('woff2'),
+        url('SharpGrotesk-Bold20.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharp Grotesk Bold 15';
+    src: url('SharpGrotesk-Bold15.woff2') format('woff2'),
+        url('SharpGrotesk-Bold15.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharp Grotesk Bold 25';
+    src: url('SharpGrotesk-Bold25.woff2') format('woff2'),
+        url('SharpGrotesk-Bold25.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharp Grotesk Book 15';
+    src: url('SharpGrotesk-Book15.woff2') format('woff2'),
+        url('SharpGrotesk-Book15.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharp Grotesk Book 10';
+    src: url('SharpGrotesk-Book10.woff2') format('woff2'),
+        url('SharpGrotesk-Book10.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharp Grotesk Black 10';
+    src: url('SharpGrotesk-Black10.woff2') format('woff2'),
+        url('SharpGrotesk-Black10.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharp Grotesk SemiBold 20';
+    src: url('SharpGrotesk-SemiBold20.woff2') format('woff2'),
+        url('SharpGrotesk-SemiBold20.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharp Grotesk SemiBold 15';
+    src: url('SharpGrotesk-SemiBold15.woff2') format('woff2'),
+        url('SharpGrotesk-SemiBold15.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharp Grotesk Book 25';
+    src: url('SharpGrotesk-Book25.woff2') format('woff2'),
+        url('SharpGrotesk-Book25.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharp Grotesk Medium 25';
+    src: url('SharpGrotesk-Medium25.woff2') format('woff2'),
+        url('SharpGrotesk-Medium25.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharp Grotesk Light 10';
+    src: url('SharpGrotesk-Light10.woff2') format('woff2'),
+        url('SharpGrotesk-Light10.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharp Grotesk Medium 20';
+    src: url('SharpGrotesk-Medium20.woff2') format('woff2'),
+        url('SharpGrotesk-Medium20.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharp Grotesk Medium 10';
+    src: url('SharpGrotesk-Medium10.woff2') format('woff2'),
+        url('SharpGrotesk-Medium10.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharp Grotesk SemiBold 05';
+    src: url('SharpGrotesk-SemiBold05.woff2') format('woff2'),
+        url('SharpGrotesk-SemiBold05.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharp Grotesk Light 15';
+    src: url('SharpGrotesk-Light15.woff2') format('woff2'),
+        url('SharpGrotesk-Light15.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharp Grotesk Light 25';
+    src: url('SharpGrotesk-Light25.woff2') format('woff2'),
+        url('SharpGrotesk-Light25.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharp Grotesk Medium 05';
+    src: url('SharpGrotesk-Medium05.woff2') format('woff2'),
+        url('SharpGrotesk-Medium05.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharp Grotesk SemiBold 10';
+    src: url('SharpGrotesk-SemiBold10.woff2') format('woff2'),
+        url('SharpGrotesk-SemiBold10.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharp Grotesk Light 05';
+    src: url('SharpGrotesk-Light05.woff2') format('woff2'),
+        url('SharpGrotesk-Light05.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharp Grotesk Medium 15';
+    src: url('SharpGrotesk-Medium15.woff2') format('woff2'),
+        url('SharpGrotesk-Medium15.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharp Grotesk Light 20';
+    src: url('SharpGrotesk-Light20.woff2') format('woff2'),
+        url('SharpGrotesk-Light20.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sharp Grotesk SemiBold 25';
+    src: url('SharpGrotesk-SemiBold25.woff2') format('woff2'),
+        url('SharpGrotesk-SemiBold25.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
