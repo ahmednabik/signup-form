@@ -76,7 +76,7 @@ form {
 
 .form-inputs div {
   position: relative;
-  width: 100%;
+  flex: auto;
   margin: 2px 0px;
 }
 
