@@ -40,13 +40,29 @@ main {
   background-color: #f3ebe9;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  margin-bottom: 50px;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo > img {
+  width: 150px;
 }
 
 .right-header {
-  padding: 5px 20px;
   margin-bottom: 40px;
+  width: 80%;
+  font-size: 1.6rem;
+}
+
+form {
+  width: 80%;
 }
 
 .form-inputs {
@@ -57,6 +73,8 @@ main {
 
 .form-inputs div {
   position: relative;
+  width: 100%;
+  margin: 2px 0px;
 }
 
 .flex-field label {
@@ -70,15 +88,11 @@ input::placeholder {
   color: white;
 }
 
-.logo {
-  margin-bottom: 50px;
-}
-
 span:not(.logged-in) {
   position: absolute;
   left: 0px;
   top: 0px;
-  font-size: 0.4em;
+  font-size: 1em;
   padding: 0 6px;
   color: white;
   border-radius: 2px;
@@ -90,8 +104,10 @@ input {
   color: var(--cyny-green);
   border: 1px solid;
   border-color: var(--cyny-green);
-  border-radius: 2px;
+  border-radius: 5px;
   padding: 2px;
+  width: 100%;
+  height: 35px;
 }
 
 input:focus {
@@ -132,6 +148,9 @@ input[type="submit"] {
   background-color: var(--dusky-green);
   cursor: pointer;
   transition: all 0.2s;
+  height: 50px;
+  font-size: 1.6em;
+  width: 50%;
 }
 
 input[type="submit"]:hover {
@@ -146,8 +165,8 @@ input[type="submit"]:focus {
 
 .logged-in {
   display: flex;
-
   align-items: center;
+  font-size: 1.3em;
 }
 
 .logged-in input[type="checkbox"] {
@@ -173,10 +192,14 @@ input[type="submit"]:focus {
 }
 
 .password_feedback {
-  font-size: 6px;
+  font-size: 1em;
   color: black;
 }
 
 .error {
   color: red;
+}
+
+.log-in-message {
+  font-size: 1.3em;
 }
